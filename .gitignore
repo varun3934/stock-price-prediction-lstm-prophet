@@ -1,0 +1,29 @@
+#Not to be present while pushing project files to git
+# Virtual environment
+stockvenv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Model files (VERY IMPORTANT)
+trained_models/lstm/*.h5
+trained_models/prophet/*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# Logs
+*.log
+
