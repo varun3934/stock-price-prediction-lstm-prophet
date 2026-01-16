@@ -2,7 +2,8 @@ import streamlit as st
 import requests
 import matplotlib.pyplot as plt
 
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://stock-predictor-api-9flr.onrender.com/predict"
+
 
 st.title("📈 Stock Price Predictor (LSTM vs Prophet)")
 
