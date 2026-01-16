@@ -25,6 +25,7 @@ def download_file(url, dest_path):
 
 
 def ensure_lstm_model(stock_name: str):
+    stock_name = stock_name.upper()
     model_filename = f"{stock_name}_model.h5"
     model_path = os.path.join(LSTM_DIR, model_filename)
 

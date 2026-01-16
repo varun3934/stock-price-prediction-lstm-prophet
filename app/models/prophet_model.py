@@ -24,6 +24,7 @@ def download_file(url, dest_path):
 
 
 def ensure_prophet_model(stock_name: str):
+    stock_name = stock_name.upper()
     model_filename = f"{stock_name}_prophet.pkl"
     model_path = os.path.join(PROPHET_DIR, model_filename)
 
